@@ -16,6 +16,6 @@
     }
 </script>
 
-<Header/>
+<Header {title}/>
 <Section {...myInfo}/>
 <Section {...myHobby}/>
