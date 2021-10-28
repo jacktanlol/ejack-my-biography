@@ -25,7 +25,7 @@
 </script>
 
 
-<div class="bg-primary text-white text-center">
+<div class="bg-dark text-white text-center">
     <Header {title}/>
     <Section {...myInfo}/>
     <Section {...myHobby}/>
