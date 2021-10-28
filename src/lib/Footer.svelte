@@ -1,4 +1,4 @@
 <script>
     export let gitHub
 </script>
-<a href={gitHub}>{gitHub}</a>
+<a href={gitHub}>Github Repository</a>
