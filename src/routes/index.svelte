@@ -28,4 +28,4 @@
 <Section {...myInfo}/>
 <Section {...myHobby}/>
 <Section {...myPersonality}/>
-<Footer/>
+<Footer {gitHub}/>
