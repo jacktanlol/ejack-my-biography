@@ -24,8 +24,11 @@
     let gitHub=   "https://github.com/jacktanlol/ejack-my-biography"
 </script>
 
-<Header {title}/>
-<Section {...myInfo}/>
-<Section {...myHobby}/>
-<Section {...myPersonality}/>
-<Footer {gitHub}/>
+
+<div class="bg-primary text-white text-center">
+    <Header {title}/>
+    <Section {...myInfo}/>
+    <Section {...myHobby}/>
+    <Section {...myPersonality}/>
+    <Footer {gitHub}/>
+</div>
