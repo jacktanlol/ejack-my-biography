@@ -25,7 +25,7 @@
 </script>
 
 
-<div class="bg-dark text-white text-center">
+<div class="d-flex g-dark text-white text-center">
     <Header {title}/>
     <Section {...myInfo}/>
     <Section {...myHobby}/>
