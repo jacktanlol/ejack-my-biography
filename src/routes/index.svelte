@@ -1,7 +1,14 @@
 <script>
     import Header from '$lib/Header.svelte';
+    let title="My Biography"
+    import Section from '$lib/Section.svelte';
+    let myInfo = {
+    title: "Info",
+    item1: "Ejack Tan",
+    item2: 14,
+    item3: "SM Han Chiang High School",
+}
 </script>
 
-<Header title= "My Biography" />
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Header/>
+<Section {...myInfo}/>
