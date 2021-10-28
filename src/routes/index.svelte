@@ -14,8 +14,18 @@
     item2: "Coding",
     item3: "Football",
     }
+    let myPersonality = {
+    title: "Personality",
+    item1: "Shy",
+    item2: "Quiet",
+    item3: "Stable",
+}
+    import Footer from '$lib/Footer.svelte'; 
+    let gitHub=   "https://github.com/jacktanlol/ejack-my-biography"
 </script>
 
 <Header {title}/>
 <Section {...myInfo}/>
 <Section {...myHobby}/>
+<Section {...myPersonality}/>
+<Footer/>
