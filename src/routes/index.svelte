@@ -27,8 +27,10 @@
 
 <div class=" bg-dark text-white text-center">
     <Header {title}/>
-    <Section {...myInfo}/>
-    <Section {...myHobby}/>
-    <Section {...myPersonality}/>
+    <div class="bg-info">
+        <Section {...myInfo}/>
+        <Section {...myHobby}/>
+        <Section {...myPersonality}/>
+    </div>
     <Footer {gitHub}/>
 </div>
