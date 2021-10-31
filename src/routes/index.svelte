@@ -27,7 +27,7 @@
 
 <div class=" bg-dark text-white text-center">
     <Header {title}/>
-    <div class="bg-info">
+    <div class="d-flex flex-column bg-info">
         <Section {...myInfo}/>
         <Section {...myHobby}/>
         <Section {...myPersonality}/>
