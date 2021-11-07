@@ -25,9 +25,9 @@
 </script>
 
 
-<div class=" bg-dark text-white text-center">
+<div class=" bg-dark text-white text-center ">
     <Header {title}/>
-    <div class='d-flex flex-column'> 
+    <div class='d-flex flex-column gap-3'> 
         <Section {...myInfo}/>
     
         <Section {...myHobby}/>
@@ -35,6 +35,6 @@
         <Section {...myPersonality}/>
      </div>
       
- 
+     
     <Footer {gitHub}/>
 </div>

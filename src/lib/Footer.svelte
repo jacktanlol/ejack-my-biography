@@ -1,4 +1,4 @@
 <script>
     export let gitHub
 </script>
-<a href={gitHub}>Github Repository</a>
+<div class="align-text-bottom"><a href={gitHub}>Github Repository</a></div>
