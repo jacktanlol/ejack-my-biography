@@ -28,15 +28,21 @@
 <div class=" bg-dark text-white text-center">
     <Header {title}/>
     <div class="d-flex flex-column bg-info border border-dark ">
-        <span class="border">
+        <div class="p-2 bd-highlight">
+            <span class="border">
             <Section {...myInfo}/>
         </span>
-        <span class="border">
-            <Section {...myHobby}/>
-        </span>
-        <span class="border">
-            <Section {...myPersonality}/>
-        </span>
     </div>
+    <div class="p-2 bd-highlight">
+        <span class="border">
+        <Section {...myHobby}/>
+    </span>
+    </div>
+    <div class="p-2 bd-highlight"> 
+        <span class="border">
+        <Section {...myPersonality}/>
+    </span>
+    </div> 
+ </div>
     <Footer {gitHub}/>
 </div>
