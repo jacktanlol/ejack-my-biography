@@ -28,9 +28,11 @@
 <div class=" bg-dark text-white text-center">
     <Header {title}/>
     <div class="d-flex flex-column bg-info border border-dark ">
-        <Section {...myInfo}/>
-        <Section {...myHobby}/>
-        <Section {...myPersonality}/>
+        <span class="border">
+            <Section {...myInfo}/>
+            <Section {...myHobby}/>
+            <Section {...myPersonality}/>
+        </span>
     </div>
     <Footer {gitHub}/>
 </div>
