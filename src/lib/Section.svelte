@@ -7,10 +7,14 @@ export let item3
 
 
 <div>
+    <div class="card">
+    <div class="card-body">
     <h3>{title}</h3>
     <p>{item1}</p>
     <p>{item2}</p>
     <p>{item3}</p>
+    </div>
+    </div>
 </div>
 
 
