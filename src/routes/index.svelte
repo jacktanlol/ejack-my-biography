@@ -30,7 +30,11 @@
     <div class="d-flex flex-column bg-info border border-dark ">
         <span class="border">
             <Section {...myInfo}/>
+        </span>
+        <span class="border">
             <Section {...myHobby}/>
+        </span>
+        <span class="border">
             <Section {...myPersonality}/>
         </span>
     </div>
