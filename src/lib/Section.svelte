@@ -7,7 +7,7 @@ export let item3
 
 
 <div>
-    <div class="card">
+    <div class="card text-white bg-primary">
     
     <h3>{title}</h3>
     <p>{item1}</p>

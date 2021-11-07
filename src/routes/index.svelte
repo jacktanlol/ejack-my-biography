@@ -27,13 +27,14 @@
 
 <div class=" bg-dark text-white text-center">
     <Header {title}/>
-    <div class="d-flex flex-column bg-info border border-dark ">
-       <Section {...myInfo}/>
+    <div class='d-flex flex-column'> 
+        <Section {...myInfo}/>
     
         <Section {...myHobby}/>
     
         <Section {...myPersonality}/>
-     
- </div>
+     </div>
+      
+ 
     <Footer {gitHub}/>
 </div>
